@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos y enlaces a hojas de estilo CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\CSS\Proyecto_5.css" type="text/css">
+    <link rel="stylesheet" href="..\CSS\Recursos_Generales.css" type="text/css">
+    <title>Formulario HTML-CSS</title>
+</head>
+<body>
+    <!-- Sección principal del formulario de contacto -->
+    <section id="formContacto">
+        <!-- Título del formulario -->
+        <h1>Formulario De Contacto</h1>
+        <!-- Subtítulo con información adicional -->
+        <sub>
+            Enviar un correo electrónico. Todos los campos con el asterisco (*) 
+            son obligatorios.
+        </sub>
+        <!-- Inicio del formulario -->
+        <form action="#">
+            <!-- Sección horizontal para los campos de entrada alineados en fila -->
+            <section class="secHorizontal" data-name="seccion-horizontal">
+                <!-- Contenedor vertical para el campo "Nombre" -->
+                <div class="pocVertical" data-name="nombre-en-vertical">
+                    <label for="formNombre">Nombre *</label>
+                    <input type="text" class="textCaja" name="formNombre" minlength="3" maxlength="20" placeholder="Introduce tu nombre" required>
+                </div>
+                <!-- Contenedor vertical para el campo "Correo Electrónico" -->
+                <div class="pocVertical" data-name="correo-en-vertical">
+                    <label for="formCorreo">Correo Electrónico *</label>
+                    <input type="email" class="textCaja" name="formCorreo" placeholder="Introduce tu correo" required>
+                </div>
+                <!-- Contenedor vertical para el campo "Asunto" -->
+                <div class="pocVertical" data-name="asunto-en-vertical">
+                    <label for="formAsunto">Asunto *</label>
+                    <input type="text" class="textCaja" name="formAsunto" minlength="5" maxlength="50" placeholder="Introduce el asunto" required>
+                </div>
+            </section>
+            <!-- Contenedor vertical para el campo "Mensaje" -->
+            <div class="pocVertical" data-name="mensaje-en-vertical">
+                <label for="formMensaje">Mensaje *</label>
+                <textarea name="formMensaje" class="textArea" placeholder="Escribe tu mensaje aquí" required></textarea>
+            </div>
+            <!-- Botón de envío del formulario -->
+            <input type="submit" name="formEnviar" id="formEnviar">
+        </form>
+    </section>
+    <!-- Espaciado adicional -->
+    <br><br>
+    <!-- Enlace para volver a la página principal -->
+    <a href="..\index.php" class="boton-portafolio">Volver a la pagina principal</a>
+</body>
+</html>

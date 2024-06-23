@@ -89,7 +89,7 @@
         </div>
     </section>
     <br><br>
-    <a href="..\index.html" class="boton-portafolio">Volver a la pagina principal</a>
+    <a href="..\index.php" class="boton-portafolio">Volver a la pagina principal</a>
     <footer>
         <h3>"< Sección en desarrollo />"</h3>
     </footer>
