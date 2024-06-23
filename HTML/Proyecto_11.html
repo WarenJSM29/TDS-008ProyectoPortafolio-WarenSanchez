@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="..\CSS\Recursos_Generales.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <h1 class="mt-5">Ejercicios de JavaScript</h1>
+
+    <!-- Ejercicio 1: Array de meses -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 1: Array de Meses</h5>
+            <button id="showMonthBtn" class="btn btn-primary">Mostrar Mes en la posición seis</button>
+            <p id="monthDisplay" class="mt-3"></p>
+        </div>
+    </div>
+
+    <!-- Ejercicio 2: Bienvenida con nombre -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 2: Bienvenida con Nombre</h5>
+            <div class="form-group">
+                <label for="visitorName">Ingrese su nombre:</label>
+                <input type="text" id="visitorName" class="form-control">
+            </div>
+            <button id="welcomeBtn" class="btn btn-primary">Enviar</button>
+            <p id="welcomeMessage" class="mt-3"></p>
+        </div>
+    </div>
+
+    <!-- Ejercicio 3: Bienvenida según la edad -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 3: Bienvenida según la Edad</h5>
+            <div class="form-group">
+                <label for="visitorAge">Ingrese su edad:</label>
+                <input type="number" id="visitorAge" class="form-control">
+            </div>
+            <button id="checkAgeBtn" class="btn btn-primary">Enviar</button>
+            <p id="ageMessage" class="mt-3"></p>
+        </div>
+    </div>
+
+    <!-- Ejercicio 4: Tabla de multiplicar con input -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 4: Tabla de Multiplicar con Input</h5>
+            <div class="form-group">
+                <label for="multiplier">Ingrese un valor del 1 al 10:</label>
+                <input type="number" id="multiplier" class="form-control" min="1" max="10">
+            </div>
+            <button id="generateBtn" class="btn btn-primary">Generar Tabla</button>
+        </div>
+    </div>
+
+    <!-- Modal para mostrar la tabla de multiplicar -->
+    <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resultModalLabel">Tabla de Multiplicar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul id="multiplicationTable" class="list-group"></ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ejercicio 5: Tabla de multiplicar con combobox -->
+    <div class="card mt-3 mb-5">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 5: Tabla de Multiplicar con Combobox</h5>
+            <div class="form-group">
+                <label for="multiplierSelect">Seleccione un valor del 1 al 10:</label>
+                <select id="multiplierSelect" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button id="generateSelectBtn" class="btn btn-primary">Generar Tabla</button>
+            <ul id="multiplicationTableSelect" class="list-group mt-3"></ul>
+        </div>
+    </div>
+
+<<<<<<< HEAD
+    <a href="..\index.php" class="boton-portafolio">Volver a la pagina principal</a>
+=======
+    <a href="..\index.html" class="boton-portafolio">Volver a la pagina principal</a>
+>>>>>>> a18a31ca90d93a54aa6ad9972aab740df49364ce
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="..\JS\Proyecto_11.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.card {
+    height: 100%;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.offer-row {
+    background-color: #f8f9fa;
+    padding: 10px;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.offer-row .card {
+    flex: 0 0 auto;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    margin-right: 10px;
+    position: relative;
+}
+.badge-oferta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.card-title {
+    white-space: normal; /* Permite que el texto se ajuste en varias líneas */
+    overflow: hidden;
+}

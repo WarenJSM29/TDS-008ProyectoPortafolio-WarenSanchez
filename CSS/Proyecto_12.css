@@ -1,0 +1,87 @@
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(40, 44, 52);
+    color: white;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto;   /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio en línea debajo de la imagen */
+}
+
+footer h3 {
+    text-align: center;
+}
+
+#Seccion-Proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.boton-proyecto {
+    background-color: #fadfe0;
+    color: rgb(40, 44, 52);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.boton-proyecto:hover {
+    background-color: #f9c5cb;
+}
+
+.cuadro-proyecto {
+    background-color: #e0f7fa;
+    color: rgb(40, 44, 52);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.cuadro-proyecto h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.cuadro-proyecto p {
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.cuadro-proyecto img {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

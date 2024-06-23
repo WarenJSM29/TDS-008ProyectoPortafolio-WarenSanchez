@@ -1,0 +1,82 @@
+/* Estilo para el contenedor principal del formulario */
+#formContacto {
+    max-width: 600px; /* Limitar el ancho máximo del formulario */
+    margin: 0 auto; /* Centramos el formulario horizontalmente */
+    padding: 20px; /* Agregamos un poco de espacio interno */
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Sombra alrededor del formulario */
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para el título y el texto de subtítulo */
+#formContacto h1 {
+    color: rgb(99, 99, 99);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formContacto sub {
+    color: rgb(99, 99, 99);
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección horizontal */
+.secHorizontal {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten en varias líneas si es necesario */
+    gap: 30px;
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+}
+
+/* Estilo para los contenedores verticales */
+.pocVertical {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Espacio inferior entre los campos */
+    flex: 1; /* Hacer que los contenedores se ajusten uniformemente */
+}
+
+/* Estilo para los inputs y textareas */
+.textCaja, .textArea {
+    width: 100%; /* Hacer que los campos ocupen el 100% del contenedor */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho y alto */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilo específico para los textareas */
+.textArea {
+    height: 100px; /* Altura específica para los textareas */
+    resize: vertical; /* Permitir redimensionamiento vertical */
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #00796b; /* Fondo del botón */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 14px; /* Tamaño de fuente */
+    font-weight: bold;
+    display: block;
+    margin: 20px auto 0; /* Centrar el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #00574b; /* Fondo del botón al pasar el mouse */
+}
+
+/* Estilo para los label */
+label {
+    color: rgb(99, 99, 99);
+    font-size: 14px; /* Tamaño de fuente */
+    margin-bottom: 10px;
+}
