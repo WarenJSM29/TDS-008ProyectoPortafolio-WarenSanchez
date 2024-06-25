@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\TDS-008ProyectoPortafolio-WarenSanchez\CSS\Recursos_Generales.css" type="text/css">
+    <link rel="stylesheet" href="..\..\CSS\Recursos_Generales.css" type="text/css">
     <title>Ejercicio 4</title>
     <style>
         body {
@@ -47,7 +47,7 @@
             }
 
             // Ruta de las imágenes de las cartas desde la raíz del servidor
-            $rutaImagenes = '/TDS-008ProyectoPortafolio-WarenSanchez/Images/Proyecto_12/Cartas/';
+            $rutaImagenes = '../../Images/Proyecto_12/Cartas/';
 
             // Mostrar las imágenes correspondientes a los números aleatorios
             foreach ($cartas as $carta) {
